@@ -1,0 +1,60 @@
+{
+	"manifest_version": 2,
+	"name": "Outline Dark",
+	"version": "1.0.0",
+	"description": "Dark Firefox theme with toolbar outlines and a filled active tab.",
+	"developer": {
+		"name": "Dmitry Kopievsky",
+		"url": "https://github.com/kopievskyd/outline-dark"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "outline-dark@firefox-theme"
+		}
+	},
+	"theme": {
+		"colors": {
+			"frame":                          "#101112",
+			"frame_inactive":                 "#030404",
+			"tab_background_text":            "#868686",
+			"tab_background_separator":       "#252729",
+			"tab_selected":                   "#252729",
+			"tab_line":                       "#252729",
+			"tab_loading_fill":               "#3a83ec",
+			"toolbar":                        "#101112",
+			"toolbar_text":                   "#e8edf1",
+			"toolbar_top_separator":          "#353638",
+			"toolbar_bottom_separator":       "#353638",
+			"toolbar_vertical_separator":     "#353638",
+			"toolbar_field":                  "#101112",
+			"toolbar_field_text":             "#e8edf1",
+			"toolbar_field_border":           "#353638",
+			"toolbar_field_focus":            "#101112",
+			"toolbar_field_text_focus":       "#e8edf1",
+			"toolbar_field_border_focus":     "#2b72df",
+			"toolbar_field_highlight":        "#164394",
+			"toolbar_field_highlight_text":   "#e8edf1",
+			"icons":                          "#949494",
+			"icons_attention":                "#e8edf1",
+			"button_background_hover":        "#252729",
+			"button_background_active":       "#353638",
+			"popup":                          "#191b1f",
+			"popup_text":                     "#e8edf1",
+			"popup_border":                   "#353638",
+			"popup_highlight":                "#122f65",
+			"popup_highlight_text":           "#e8edf1",
+			"bookmark_text":                  "#e8edf1",
+			"ntp_background":                 "#101112",
+			"ntp_card_background":            "#191b1f",
+			"ntp_text":                       "#e8edf1",
+			"sidebar":                        "#030404",
+			"sidebar_text":                   "#e8edf1",
+			"sidebar_border":                 "#353638",
+			"sidebar_highlight":              "#122f65",
+			"sidebar_highlight_text":         "#e8edf1"
+		},
+		"properties": {
+			"color_scheme": "dark"
+		}
+	}
+}
